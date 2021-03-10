@@ -1,0 +1,43 @@
+.bottom-container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #6abeca 0%, rgba(69, 108, 114, 0.57) 100%), 
+        url(../../resources/images/bailey-zindel-NRQV-hBF10M-unsplash.jpg) center;
+    background-size: cover;
+    .inner-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.forecastday-container{
+    height: 8em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .image{
+        height: 3em;
+        width: 3em;
+        .img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.text {
+    font-size: 14px;
+    color: #fff;
+}
+
+.muted-text{
+    font-size: 8px;
+    color: #fff;
+}
